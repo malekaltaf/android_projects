@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.briangotti.guichetautomatiqueatm">
+
+    <application
+        android:name=".ConfigurationGuichet"
+        android:allowBackup="true"
+        android:icon="@drawable/iconvertmoney"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconvertmoney"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GuichetAutomatiqueATM">
+        <activity android:name=".ViewClient"></activity>
+        <activity android:name=".ViewEpargne" />
+        <activity android:name=".ViewCheque" />
+        <activity android:name=".ViewAdmin" />
+        <activity android:name=".Guichet" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

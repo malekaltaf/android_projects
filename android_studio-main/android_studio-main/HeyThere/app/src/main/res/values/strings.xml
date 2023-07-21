@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HeyThere</string>
+    <string name="say_hello">Say Hello</string>
+    <string name="btn2">SAY BYE</string>
+</resources>

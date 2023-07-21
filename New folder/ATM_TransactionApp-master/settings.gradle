@@ -1,0 +1,2 @@
+include ':bankapp', ':bank'
+rootProject.name='ATM App'

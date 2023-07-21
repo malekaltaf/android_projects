@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">snackbar</string>
+    <string name="noticeMe">Lookie here</string>
+    <string name="title">My Notification</string>
+    <string name="message">This is my message</string>
+    <array name="rounded_images">
+        <item>@drawable/background</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/ic_launcher_background</item>
+    </array>
+</resources>

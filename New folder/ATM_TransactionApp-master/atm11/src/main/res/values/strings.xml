@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BANK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="otp_text">In other for you to make any transaction in the ATM Machine, you need to setup your ATM OTP PIN via your phone number.</string>
+    <string name="wait_code_text">Please wait for the code that we sent</string>
+</resources>

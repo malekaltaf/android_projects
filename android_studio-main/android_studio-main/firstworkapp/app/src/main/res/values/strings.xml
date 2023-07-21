@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">firstworkapp</string>
+    <string name="hello_text">Unclicked Button</string>
+    <string name="click_me_text">Click Me</string>
+</resources>

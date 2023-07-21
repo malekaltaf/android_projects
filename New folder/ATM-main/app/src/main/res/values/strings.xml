@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Guichet automatique ATM</string>
+    <string name="cheque">cheque</string>
+    <string name="epargne">epargne</string>
+    <string name="depot">depot</string>
+    <string name="retrait">retrait</string>
+    <string name="virement">virement</string>
+
+    <string name="listecomptecheque">Liste des Comptes Chéque : </string>
+    <string name="numerocomptecheque">Numéro de compte : </string>
+    <string name="soldecheque">Solde du compte : </string>
+    <string name="nombrecheque">Nombre de compte cheque : </string>
+
+    <string name="listecompteepargne">Liste des Comptes Épargne : </string>
+    <string name="numerocompteepargne">Numéro de compte : </string>
+    <string name="soldeepargne">Solde du compte : </string>
+    <string name="nombreepargne">Nombre de compte epargne: </string>
+
+    <string name="listecompteclients">Liste des Clients : </string>
+    <string name="nomclient">Nom du client : </string>
+    <string name="prenomclient">Prénom du client : </string>
+    <string name="nombreeclient">Nombre de clients : </string>
+
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WORKOUT</string>
+    <string name="button">GET</string>
+    <string name="workoutmode">WorkOutMode</string>
+    <string name="workout"></string>
+    <string name="btn">get</string>
+    <string-array name="workout_type">
+        <item>Samsung</item>
+        <item>Nokia</item>
+        <item>Apple</item>
+        <item>Xiaomi</item>
+        <item>Oneplus</item>
+
+        </string-array>
+</resources>

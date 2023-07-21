@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guichet">
+
+    <Button
+        android:id="@+id/btnEight"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickBtnEight"
+        android:text="8"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFour" />
+
+    <Button
+        android:id="@+id/btnNine"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickBtnNine"
+        android:text="9"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toEndOf="@+id/btnEight"
+        app:layout_constraintTop_toBottomOf="@+id/btnFive" />
+
+    <EditText
+        android:id="@+id/txtMontant"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Montant"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEight" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTransaction"
+        android:layout_width="154dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toEndOf="@+id/btnClear"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioDepot"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Depot" />
+
+        <RadioButton
+            android:id="@+id/radioRetrait"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Retrait" />
+
+        <RadioButton
+            android:id="@+id/radioVirement"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Virement" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnFive"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickBtnFive"
+        android:text="5"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toEndOf="@+id/btnFour"
+        app:layout_constraintTop_toBottomOf="@+id/btnOne" />
+
+    <Button
+        android:id="@+id/btnZero"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickBtnZero"
+        android:text="0"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnFour"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickBtnFour"
+        android:text="4"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnZero" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="68dp"
+        android:onClick="onClickBtnTwo"
+        android:text="2"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toEndOf="@+id/btnOne"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPoint"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickBtnPoint"
+        android:text="."
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toEndOf="@+id/btnNine"
+        app:layout_constraintTop_toBottomOf="@+id/btnSix" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickBtnClear"
+        android:text="C"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toEndOf="@+id/btnPoint"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeven" />
+
+    <Button
+        android:id="@+id/btnSix"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickBtnSix"
+        android:text="6"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toEndOf="@+id/btnFive"
+        app:layout_constraintTop_toBottomOf="@+id/btnTwo" />
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="68dp"
+        android:onClick="onClickBtnThree"
+        android:text="3"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toEndOf="@+id/btnTwo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSeven"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickBtnSeven"
+        android:text="7"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toEndOf="@+id/btnSix"
+        app:layout_constraintTop_toBottomOf="@+id/btnThree" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupComptes"
+        android:layout_width="154dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioGroupTransaction"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioCheque"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Cheque" />
+
+        <RadioButton
+            android:id="@+id/radioEpargne"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Epargne" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="68dp"
+        android:onClick="onClickBtnOne"
+        android:text="1"
+        android:textColor="#131010"
+        android:textColorHint="#eee"
+        app:backgroundTint="#e7e9eb"
+        app:layout_constraintStart_toEndOf="@+id/btnZero"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="34dp"
+        android:text="Bonjour "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="243dp"
+        android:layout_marginLeft="243dp"
+        android:onClick="onClickBtnLogout"
+        android:text="Logout"
+        app:layout_constraintStart_toEndOf="@+id/txtMontant"
+        app:layout_constraintTop_toBottomOf="@+id/btnSoumettre" />
+
+    <Button
+        android:id="@+id/btnEtatCompte"
+        android:layout_width="153dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="7dp"
+        android:onClick="onClickBtnEtatCompte"
+        android:text="Etat des Comptes"
+        app:layout_constraintStart_toEndOf="@+id/btnClear"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupTransaction" />
+
+    <Button
+        android:id="@+id/btnSoumettre"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="6dp"
+        android:onClick="onClickBtnSoumettre"
+        android:text="Soumettre"
+        app:layout_constraintStart_toEndOf="@+id/btnEtatCompte"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupComptes" />
+</androidx.constraintlayout.widget.ConstraintLayout>

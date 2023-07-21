@@ -1,0 +1,14 @@
+D:\Android Project\crossPlatform Demos\ios applications\ios application\bin\iPhone\Debug\ios application.exe
+D:\Android Project\crossPlatform Demos\ios applications\ios application\bin\iPhone\Debug\ios application.pdb
+D:\Android Project\crossPlatform Demos\ios applications\ios application\bin\iPhone\Debug\Xamarin.Essentials.dll
+D:\Android Project\crossPlatform Demos\ios applications\ios application\bin\iPhone\Debug\Xamarin.Essentials.pdb
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\optimized\
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\ios application.csprojAssemblyReference.cache
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\ios application.csproj.CopyComplete
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\ios application.exe
+D:\Android Project\crossPlatform Demos\ios applications\ios application\obj\iPhone\Debug\ios application.pdb

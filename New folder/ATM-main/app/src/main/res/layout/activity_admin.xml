@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/interfaceAdministrateur"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCE8CD"
+    tools:context=".ViewAdmin">
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="26dp"
+        android:onClick="onClickLogout"
+        android:text="Logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListeClients" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="45dp"
+        android:text="Bonjour,"
+        android:textColor="#2B852F"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnInterets"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:gravity="center"
+        android:onClick="onClickInterets"
+        android:text="Paiements Des Interets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCheque"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="26dp"
+        android:onClick="onClickCheque"
+        android:text="Comptes Cheques"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInterets" />
+
+    <Button
+        android:id="@+id/btnEpargne"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="26dp"
+        android:onClick="onClickEpargne"
+        android:text="Comptes Epargnes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheque" />
+
+    <Button
+        android:id="@+id/btnListeClients"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="26dp"
+        android:onClick="onClickListeClients"
+        android:text="Liste des Clients"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEpargne" />
+</androidx.constraintlayout.widget.ConstraintLayout>
